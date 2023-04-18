@@ -1,0 +1,40 @@
+h1{
+    color: darkblue;
+    text-align: center;
+    background-color: rgb(59, 115, 134);
+    height:auto;
+    width: 250px;
+    font-style:italic;
+    border:2px solid rgb(17, 17, 17);
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left:  350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.heading{
+    color: rgb(4, 4, 5);
+    text-align: center;
+    background-image: url('https://getwallpapers.com/wallpaper/full/6/a/c/889067-free-cool-anime-backgrounds-1920x1080.jpg');
+    height:auto;
+    width:200px;
+    background-position:unset;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding:10px 20px 10px 10px ;
+    /* padding:top right bottom left; */
+    margin-left: 360px;
+    margin-top: 10px;
+}
+.menu-list{
+    color: rgb(9, 222, 16);
+    text-align: center;
+    background-color: rgb(207, 167, 233);
+    height:auto;
+    width:200px;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding:10px 20px 10px 10px ;
+    /* padding:top right bottom left; */
+    margin-left: 360px;
+}
