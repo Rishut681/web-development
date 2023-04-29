@@ -1,15 +1,16 @@
 .main{
-    background-color: rgb(181, 160, 190);
-    /* background-image: url(https://img.freepik.com/free-vector/modern-colorful-watercolor-background_1055-7132.jpg?size=626&ext=jpg&ga=GA1.1.3530160.1677072262&semt=robertav1_2_sidr );
+    background-image: url(https://images.pexels.com/photos/1293006/pexels-photo-1293006.jpeg?auto=compress&cs=tinysrgb&w=600 );
     background-repeat: no-repeat;
-    background-size:auto; */
+    background-size:auto 3500px;
     border:3px solid black;
     border-radius: 15px;
     margin: 20px 100px;
     padding: 5px 20px 10px 20px;
 }
 .object{
-    background-color: rgb(128, 29, 171);
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat:no-repeat;
+    background-size:1230px 550px;
     border:3px solid black;
     border-radius: 15px;
     margin: 10px 25px;
@@ -56,4 +57,22 @@ h1{
 }
 .object ul{
     overflow: auto;
+}
+.caption{
+    background-color: rgb(147, 149, 151);
+    border: 2px solid black;
+    border-radius:5px;
+    box-shadow: 2px 3px;
+    text-decoration: overline;
+    font-style: italic;
+    cursor:grab;
+    margin:5px 220px 5px 0px;
+    padding:2px 2px 2px 2px;
+    text-align: center;
+}
+.food{
+    border: 2px solid hsl(187, 78%, 29%);
+    border: radius 7px;
+    box-shadow: 3px 3px;
+    cursor:crosshair;
 }
