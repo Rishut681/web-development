@@ -1,55 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu App</title>
     <style>
-        .navbar{
+        header {
+            background-image: url(https://i.pinimg.com/originals/23/e5/ec/23e5ec18253c31533c5f0cfff53d34b1.jpg);
+            border: 2px solid black;
+            border-radius: 12px;
+            margin: 20px 40px;
+            padding: 10px 20px 10px 20px;
+        }
+
+        .navbar {
             background-color: black;
             border-radius: 30px;
-          }
-          .navbar li{
-            float:left;
-            list-style: none; 
-            margin: 13px 20px;
         }
-        .navbar ul{
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 10px 20px 10px 20px;
+            padding: 5px 5px 5px 5px;
+            border: 1px solid white;
+            border-radius: 4px;
+
+        }
+
+        .navbar ul {
             overflow: auto;
         }
-        .navbar li a{
+
+        .navbar li a {
             padding: 3px 3px;
             text-decoration: none;
             color: white;
         }
-        .search{
+
+        .search {
             float: right;
             color: white;
             padding: 12px 75px;
         }
-        .navbar input{
-            border: 2px solid black;
+
+        .navbar input {
+            border: 3px solid rgb(14, 150, 32);
             border-radius: 14px;
             padding: 3px 17px;
-            width: 129px;
+            width: 150px;
+        }
+
+        h1 {
+            color: rgb(15, 225, 225);
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-style: dashed;
+            text-shadow: 2px 2px black;
+            background-color: rgb(33, 36, 37);
+            box-shadow: 3px 3px;
+            height: auto;
+            width: 200px;
+            font-style: italic;
+            border: 2px solid rgb(17, 17, 17);
+            border-radius: 10px;
+            margin: 20px auto;
+            padding-top: 5px;
+            padding-bottom: 15px;
+        }
+
+        p {
+            text-align: center;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            border-radius: 10px;
+            margin: 20px 25px 20px 25px;
+            background-color: rgb(143, 169, 206);
+        }
+
+        .content {
+            text-align: center;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            border-radius: 10px;
+            margin: 80px 250px 40px 250px;
+            background-color: rgb(143, 169, 206);
+            height: auto;
+        }
+
+        .content a {
+            text-decoration: none;
+            color: rgb(222, 55, 55);
+            background-color: aliceblue;
+            font-weight: bolder;
+            font-size: x-large;
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 5px 10px 5px 10px;
+            margin-bottom: 10px;
+        }
+        .image{
+            background-color: ghostwhite;
+            border:2px solid black;
+            border-radius: 10px;
+        }
+        .image li{
+            background-color: aliceblue;
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 5px 5px 5px 5px;
+            float: left;
+            width: 48%;
+        }
+        .image ul{
+            overflow: auto;
         }
     </style>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="http://127.0.0.1:5500/menu.html">Menu</a></li>
+                <li><a href="http://127.0.0.1:5500/menu.html" target="_blank">Menu</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="http://127.0.0.1:5500/contach.html?fname=mwkm&lname=wijssi&email=xnhwbbywb%40gmail.com&sub=nswi&message=sjqwushu"
+                        target="_blank">Contact us</a></li>
                 <div class="search">
                     <input type="text" name="search" id="search" placeholder="Search this website">
                 </div>
             </ul>
         </nav>
+        <div>
+            <h1>WELCOME</h1>
+        </div>
+        <div class="content">
+            <div>
+                <p>We creatively modernizes our<strong> Drinks and Beverages </strong>with the age-old flavors and taste
+                    of
+                    our products.<br>
+
+                    Our cuisine is proudly inspired by Indian culture with a distinctly mix of Western culture, — served
+                    nightly in a space that is as elegant as it is lively.<br>
+
+                    We look forward to welcoming you in.
+                </p>
+            </div>
+            <div>
+                <h2>For Our MENU click below..</h2>
+            </div>
+            <div>
+                <a href="http://127.0.0.1:5500/menu.html" target="_blank">MENU</a>
+            </div>
+
+
+
+        </div>
+        <div class="image">
+            <ul>
+                <div>
+                    <li>
+                        <img src="https://images.unsplash.com/photo-1467189386127-c4e5e31ee213?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlJTIwYW5kJTIwY2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="..." height="470px"width="640px">
+                    </li>
+                </div>
+                <div>
+                    <li> <img
+                            src="https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvZmZlZSUyMGFuZCUyMGNha2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="...." height="470px"width="640px"></li>
+                </div>
+                <div>
+                    <li>
+                        <img src="https://images.unsplash.com/photo-1498603821686-38df172a18bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=695&q=80"
+                            alt="...." height="470px"width="640px">
+                    </li>
+                </div>
+                <div>
+                    <li><img src="https://plus.unsplash.com/premium_photo-1677000666727-7d23ff25fc02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNvZmZlZSUyMGFuZCUyMGNha2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="...." height="470px"width="640px"></li>
+                </div>
+            </ul>
+        </div>
     </header>
 </body>
+
 </html>
