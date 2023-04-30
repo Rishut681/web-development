@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <style>
-        *{
+        * {
             box-sizing: border-box;
         }
+
         header {
-            background-image: url();
-            border: 2px solid black;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkyoysDz8fhLil6JB1VlqOh08zd-h2emhWw&usqp=CAU);
+            background-repeat:repeat;
+            width: auto;
+            border: 3px solid rgb(22, 131, 203);
             border-radius: 12px;
-            margin: 20px 40px;
+            margin: 20px 120px;
             padding: 10px 20px 10px 20px;
         }
 
         .navbar {
-            background-color: black;
+            background-color: rgba(101, 86, 86, 0.989);
             border-radius: 30px;
+            width: 60%;
+            margin: auto;
         }
 
         .navbar li {
@@ -54,8 +60,117 @@
             padding: 3px 17px;
             width: 150px;
         }
+
+        .intro {
+            display: inline-block;
+            background-color: ghostwhite;
+            border: 2px solid black;
+            border-radius: 14px;
+            box-shadow: 3px 3px;
+            padding: 10px 20px 10px 20px;
+            margin auto;
+            width: 60%;
+        }
+
+        .para {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #first {
+            font-size: 30px;
+            border-bottom: 2px solid red;
+            border-radius: 10px;
+            background-color: rgb(78, 92, 92);
+            box-shadow: 3px 2px;
+        }
+
+        #second {
+            width: auto;
+            margin: auto;
+            box-shadow: 0px 2px;
+        }
+
+        #third {
+            width: 500px;
+            margin: auto;
+            font-style: italic;
+            font-size: 17px;
+            box-shadow: 2px 2px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .intro a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            align-items: center;
+            background-color: aqua;
+            font-size: 20px;
+            border: 2px solid red;
+            border-radius: 8px;
+            margin: 20px 220px 10px 220px;
+            padding: auto;
+            box-shadow: 2px 3px;
+        }
+        .project{
+            text-align: center;
+            background-color:whitesmoke;
+            border: 2px solid black;
+            border-radius:10px;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            font-size: 24px;
+            box-shadow: 3px 3px;
+            padding:20px 30px 20px 30px;
+        }
+        .project li{
+            list-style: none;
+            border: 2px solid black;
+            border-radius:10px;
+            margin:10px 20px 20px 10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrqITQdd5ZKGbiDWlKBTKjHrPLaXWoL2uMQ&usqp=CAU);
+            /* background-color: rgb(64, 83, 78); */
+            box-shadow: 3px 3px;
+        }
+        .project h3{
+            display:inline-block;
+            text-decoration: underline;
+            background-color: aliceblue;
+            width:auto;
+            padding: 2px 3px 0px 3px;
+            border: 2px solid black;
+            border-radius:8px;
+            box-shadow: 2px 2px;
+        }
+        .p1{
+            display: inline-block;
+            text-decoration: underline;
+            background-color: rgb(144, 154, 164);
+            align-items: center;
+            width:auto;
+            padding: 2px 3px 2px 3px;
+            border: 2px solid black;
+            border-radius:8px;
+            box-shadow: 2px 2px;
+        }
+        .project a{
+            display: inline-block;
+            width: auto;
+            text-decoration: none;
+            align-items: center;
+            background-color: rgb(127, 95, 142);
+            font-size: 20px;
+            border: 2px solid black;
+            border-radius: 8px;
+            margin: 0px 220px 10px 220px;
+            padding:2px 3px 2px 3px;
+            box-shadow: 2px 3px;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -68,6 +183,63 @@
                         target="_blank">Contact me</a></li>
             </ul>
         </nav>
-        <div>
+        <section class="intro">
+            <div>
+                <p id="first" class="para">Hi there, I'm <strong>Rishu Raj</strong>
+                <p>
+                <p id="second" class="para">
+                    I'm currently a first year student pursuing my Bachlor;s degree in B.Tech(CSE) from Dronacharya
+                    College of Engineering.<br>
+                    I aim to be a successful Web Developer.<br><br></p>
+                <p id="third" class="para"> My motivation and love for development as well as a good design have brought
+                    me
+                    towards this goal of becoming a Web Developer.<br>
+                    Every day i try to keep up with the latest technologies and to improve myself.
+                </p>
+            </div>
+            <div>
+                <a href="http://127.0.0.1:5500/contact.html?fname=mwkm&lname=wijssi&email=xnhwbbywb%40gmail.com&sub=nswi&message=sjqwushu"
+                    target="_blank">Reach out to Me</a>
+            </div>
+
+        </section>
+        <image>
+            <img src="" alt="">
+        </image>
+        <section class="project">
+            <h2>My Projects</h2>
+            <ul>
+                <div>
+                    <li>
+                        <h3 class="he3">Project 1</h3><br>
+                        <p class="p1">A Cat app using HTML.</p><br>
+                        <a href="http://127.0.0.1:5500/cat%20app.html">View project</a>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <h3 class="he3">Project 2</h3><br>
+                        <p class="p1">A tribute page to MS Dhoni using HTML.</p><br>
+                        <a href="http://127.0.0.1:5500/tribute%20page.html">View project</a>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <h3 class="he3">Project 3</h3><br>
+                        <p class="p1">A Menu App using HTML & CSS.</p><br>
+                        <a href="http://127.0.0.1:5500/menu.html">View project</a>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <h3 class="he3">Project 4</h3><br>
+                        <p class="p1">A Contact Us page using HTML & CSS.</p><br>
+                        <a href="http://127.0.0.1:5500/contact.html?fname=mwkm&lname=wijssi&email=xnhwbbywb%40gmail.com&sub=nswi&message=sjqwushu">View project</a>
+                    </li>
+                </div>
+            </ul>
+        </section>
+    </header>
 </body>
+
 </html>
