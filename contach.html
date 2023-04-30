@@ -8,24 +8,86 @@
     <title>Document</title>
     <style>
         .container {
-            background-color: aqua;
+            background-color: rgba(72, 110, 110, 0.801);
             border: 3px solid black;
             border-radius: 15px;
             padding: 15px 20px 20px 20px;
             margin: 100px 50px;
-            box-shadow: 2px 3px;
+            box-shadow: 3px 4px;
         }
 
         h1 {
+            color: black;
+            background-color: rgba(57, 63, 63, 0.737);
             text-align: center;
             text-decoration: underline;
             font-style: italic bold;
             border-bottom: 2px solid black;
         }
 
-        .detail {
+        .container label {
+            background-color: rgba(148, 164, 164, 0.97);
+            font-weight: bold;
+            text-decoration: underline;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 6px;
+            border-style: dashed;
+            margin: 5px 10px 5px 0;
+            padding: 2px 4px 2px 4px;
+            box-shadow: 2px 2px;
+        }
+
+        .container input {
+            text-align: center;
+            margin: 5px 10px 5px 0;
+            width: 500px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #2a2727;
+            border-radius: 8px;
+            box-shadow: 2px 2px;
+        }
+
+        #message {
+            text-align: center;
+            font-size: large;
+            width: 600px;
+            height: 120px;
+            box-shadow: 2px 3px;
+            cursor: auto;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .container button {
+            background-color: #3bb3c9;
+            font-size: x-large;
+            border-radius: 10px;
+            cursor: grab;
+            padding: 5px 7px 5px 7px;
+            margin: auto 50px;
+            box-shadow: 2px 1px;
+
+        }
+
+        .btn:hover {
+            background-color: #fff !important;
+            color: rgb(188, 26, 59);
+
+        }
+
+        .container li {
             float: left;
-            
+            list-style: none;
+            width: 49%;
+            padding: auto;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        .container ul {
+            overflow: auto;
         }
     </style>
 </head>
@@ -34,29 +96,36 @@
     <div class="container">
         <h1>Contact Me</h1>
         <form>
-            <div class="detail">
-                <label for="">FIRST NAME</label>
-                <input type="text" id="name" name="name">
-            </div><br>
-            <div class="detail">
-                <label for="">LAST NAME</label>
-                <input type="text" id="Lname" name="name">
-            </div><br>
-            <div class="detail">
-                <label for="">Email Address</label>
-                <input type="email" id="email" name="email">
-            </div><br>
-            <div class="detail">
-                <label for="">Subject</label>
-                <input type="text" id="sub" name="sub">
-            </div><br>
-            <div class="detail">
-                <label for="message">Message</label>
-                <textarea id="message" name="message"></textarea>
-            </div><br>
-
-            <div>
-                <button type="submit">Send</button>
+            <ul>
+                <div class="detail">
+                    <li><label for="">FIRST NAME</label>
+                        <div><input type="text" id="name" name="fname"></div>
+                    </li>
+                </div>
+                <div class="detail">
+                    <li><label for="">LAST NAME</label>
+                        <div><input type="text" id="Lname" name="lname"></div>
+                    </li>
+                </div>
+                <div class="detail">
+                    <li><label for="">Email Address</label>
+                        <div><input type="email" id="email" name="email"></div>
+                    </li>
+                </div>
+                <div class="detail">
+                    <li><label for="subject"><strong>Subject</strong></label>
+                        <div><input type="text" id="sub" name="sub"></div>
+                    </li>
+                </div>
+                <div class="detail">
+                    <li> <label for="message"><strong>Message</strong></label>
+                        <div><textarea id="message" name="message"></textarea></div>
+                    </li>
+                </div>
+            </ul>
+                <div>
+                    <button class="btn" type="submit">Send</button>
+            
         </form>
     </div>
 </body>
