@@ -15,9 +15,21 @@
             padding: 10px 20px 10px 20px;
         }
 
+        .logo img{
+            display: inline-block;
+            position: absolute;
+            width: 10%;
+            border: 2px solid grey;
+            box-shadow:3px 3px;
+        }
+
         .navbar {
+            display:block;
             background-color: black;
             border-radius: 30px;
+            width: 70%;
+            margin: auto;
+            position: relative;
         }
 
         .navbar li {
@@ -27,7 +39,6 @@
             padding: 5px 5px 5px 5px;
             border: 1px solid white;
             border-radius: 4px;
-
         }
 
         .navbar ul {
@@ -101,12 +112,14 @@
             padding: 5px 10px 5px 10px;
             margin-bottom: 10px;
         }
-        .image{
+
+        .image {
             background-color: ghostwhite;
-            border:2px solid black;
+            border: 2px solid black;
             border-radius: 10px;
         }
-        .image li{
+
+        .image li {
             background-color: aliceblue;
             border: 2px solid black;
             border-radius: 8px;
@@ -114,7 +127,8 @@
             float: left;
             width: 48%;
         }
-        .image ul{
+
+        .image ul {
             overflow: auto;
         }
     </style>
@@ -122,20 +136,26 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href=" http://127.0.0.1:5500/menu%20app/menu.html
+        <div class="logo">
+            <img src="https://img.freepik.com/premium-vector/luxury-logo-restaurant-food-drink_79530-190.jpg?size=626&ext=jpg&ga=GA1.1.3530160.1677072262&semt=robertav1_2_sidr"
+                alt="...">
+        </div>
+        <div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href=" http://127.0.0.1:5500/menu%20app/menu.html
                     " target="_blank">Menu</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="http://127.0.0.1:5500/contact.html?fname=mwkm&lname=wijssi&email=xnhwbbywb%40gmail.com&sub=nswi&message=sjqwushu"
-                        target="_blank">Contact us</a></li>
-                <div class="search">
-                    <input type="text" name="search" id="search" placeholder="Search this website">
-                </div>
-            </ul>
-        </nav>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="http://127.0.0.1:5500/contact.html?fname=mwkm&lname=wijssi&email=xnhwbbywb%40gmail.com&sub=nswi&message=sjqwushu"
+                            target="_blank">Contact us</a></li>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="Search this website">
+                    </div>
+                </ul>
+            </nav>
+        </div>
         <div>
             <h1>WELCOME</h1>
         </div>
@@ -158,7 +178,7 @@
                 <a href=" http://127.0.0.1:5500/menu%20app/menu.html
                 " target="_blank">MENU</a>
             </div>
-           
+
 
         </div>
         <div class="image">
@@ -166,23 +186,23 @@
                 <div>
                     <li>
                         <img src="https://images.unsplash.com/photo-1467189386127-c4e5e31ee213?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlJTIwYW5kJTIwY2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                            alt="..." height="470px"width="640px">
+                            alt="..." height="470px" width="640px">
                     </li>
                 </div>
                 <div>
                     <li> <img
                             src="https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvZmZlZSUyMGFuZCUyMGNha2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                            alt="...." height="470px"width="640px"></li>
+                            alt="...." height="470px" width="640px"></li>
                 </div>
                 <div>
                     <li>
                         <img src="https://images.unsplash.com/photo-1498603821686-38df172a18bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=695&q=80"
-                            alt="...." height="470px"width="640px">
+                            alt="...." height="470px" width="640px">
                     </li>
                 </div>
                 <div>
                     <li><img src="https://plus.unsplash.com/premium_photo-1677000666727-7d23ff25fc02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNvZmZlZSUyMGFuZCUyMGNha2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                            alt="...." height="470px"width="640px"></li>
+                            alt="...." height="470px" width="640px"></li>
                 </div>
             </ul>
         </div>
