@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <style>
+        body {
+            background-color: rgb(10, 1, 30);
+            color: white;
+        }
+
+        #left {
+            border-right: 1px solid rgb(245, 243, 243);
+            display: inline-block;
+            height: 750px;
+        }
+
+        .dot span {
+            width: 20px;
+            height: 20px;
+            margin: 0 3px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .yellow {
+            background-color: yellow
+        }
+
+        .green {
+            background-color: green
+        }
+
+        h3 {
+            font-size: 13px;
+            margin-left: 40px;
+            margin-top: 60px;
+            color: white;
+        }
+
+        .items li {
+            list-style: none;
+            color: white;
+            margin-top: 30px;
+            font-size: 18px;
+            margin-right: 30px;
+        }
+
+        #right {
+            display: inline-block;
+            width: 80%;
+            margin: 2px 60px;
+
+        }
+
+        .image {
+            position: relative;
+            text-align: left;
+            color: white;
+        }
+
+        .image img {
+            border-radius: 20px;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 15px;
+            left: 16px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 17px;
+            right: 750px;
+        }
+
+        #right h4 {
+            font-size: 20px;
+            color: red;
+        }
+
+        #right p {
+            font-size: 30px;
+        }
+
+        .upper {
+            display: flex;
+            margin: 0px 20px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+        }
+
+        .uitem {
+            flex: 1 50%;
+        }
+        .double{
+            font-size: 30px;
+            margin-right: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+
+        }
+        .double div{
+            margin:9px;
+        }
+        .double img{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="left">
+        <div class="dot">
+            <span class="red"></span>
+            <span class="yellow"></span>
+            <span class="green"></span>
+        </div>
+        <div class="items">
+            <div class="library">
+                <h3>LIBRARY</h3>
+                <ul class="list">
+                    <li class="listitems">&#127926 Playlists</li>
+                    <li class="listitems">&#128100 Artists</li>
+                    <li class="listitems">&#xf1c7 Albums</li>
+                    <li class="listitems">&#xf001 Songs</li>
+                </ul>
+            </div>
+            <div class="discover">
+                <h3>DISCOVER</h3>
+                <ul class="list">
+                    <li class="listitems"> Store</li>
+                    <li class="listitems">&#128280 Radio</li>
+                    <li class="listitems">&#10084 For You</li>
+                    <li class="listitems">Browse</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="right">
+        <div class="upper">
+            <h4 class="uitem">Store</h4>
+            <div class="double">
+                <div class="uitem"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEalKtdDx7ywfB6RyFgKikKEw38eNlgS26mg&usqp=CAU" alt="" height="30px" width="30px"></div>
+                <div class="uitem"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFiiY7LVKwUpDS3RnGDyEkh5nWgG_HVB9Qmg&usqp=CAU" alt="" height="30px" width="30px"></div>
+            </div>
+            <p class="uitem">New Releases</p>
+
+        </div>
+        <div class="image">
+            <div class="first"></div>
+            <img src="https://images.theconversation.com/files/379026/original/file-20210115-21-90wsyw.jpg?ixlib=rb-1.1.0&rect=7%2C131%2C4876%2C2438&q=45&auto=format&w=1356&h=668&fit=crop"
+                alt="..." height="240px" width="500px">
+            <div class="bottom-left"><strong>Beyond Fear</strong><br>Johny Yves</div>
+            <div class="bottom-right">&#9654</div>
+            </div>
+            <div class="second">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
