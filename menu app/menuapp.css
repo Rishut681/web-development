@@ -1,0 +1,124 @@
+header {
+    background-image: url(https://i.pinimg.com/originals/23/e5/ec/23e5ec18253c31533c5f0cfff53d34b1.jpg);
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 20px 40px;
+    padding: 10px 20px 10px 20px;
+}
+
+.logo img{
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    border: 2px solid grey;
+    box-shadow:3px 3px;
+}
+
+.navbar {
+    display:block;
+    background-color: black;
+    border-radius: 30px;
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 10px 20px 10px 20px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+
+.navbar input {
+    border: 3px solid rgb(14, 150, 32);
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 150px;
+}
+
+h1 {
+    color: rgb(15, 225, 225);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-shadow: 2px 2px black;
+    background-color: rgb(33, 36, 37);
+    box-shadow: 3px 3px;
+    height: auto;
+    width: 200px;
+    font-style: italic;
+    border: 2px solid rgb(17, 17, 17);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    margin: 20px 25px 20px 25px;
+    background-color: rgb(143, 169, 206);
+}
+
+.content {
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    margin: 80px 250px 40px 250px;
+    background-color: rgb(143, 169, 206);
+    height: auto;
+}
+
+.content a {
+    text-decoration: none;
+    color: rgb(222, 55, 55);
+    background-color: aliceblue;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+}
+
+.image {
+    background-color: ghostwhite;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.image li {
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+    width: 48%;
+}
+
+.image ul {
+    overflow: auto;
+}
